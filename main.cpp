@@ -26,11 +26,11 @@ int main()
   else
     smallest = num3;
 
-  cout << "Sum is " << num1 + num2 + num3 << endl;
-  cout << "Average is " << (num1 + num2 + num3) / 3.0 << endl;
-  cout << "Product is " << num1 * num2 * num3 << endl;
-  cout << "Smallest is " << smallest << endl;
-  cout << "Largest is " << largest << endl;
+  cout << "Sum is " << num1 + num2 + num3 << endl
+       << "Average is " << (num1 + num2 + num3) / 3.0 << endl
+       << "Product is " << num1 * num2 * num3 << endl
+       << "Smallest is " << smallest << endl
+       << "Largest is " << largest << endl;
 
   return 0;
 }
